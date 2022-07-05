@@ -1,4 +1,62 @@
 body
 {
-    background-color: darkolivegreen;
+    background-image: url("images/backgroundimg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 14px;
 }
+#MainContainer
+{
+background-color: blanchedalmond;
+width: 1000px;
+height: 800px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#TopBar
+{
+    background-color: black;
+    height:60px;
+    width: 1000px;
+}
+
+#logo
+{
+    float:left;
+    background-color: blue;
+    width:100px;
+    height:60px;
+}
+
+#SearchBar
+{
+    background-color: blueviolet;
+    width:840px;    
+    height:60px;
+    float:left;
+    
+}
+
+#DayNight
+{
+width:60px;
+height:60px;
+}
+
+#LeftBanner
+{
+    background-color: aquamarine;
+    width: 100px;
+    height:700px;
+}
+
+img 
+{
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
